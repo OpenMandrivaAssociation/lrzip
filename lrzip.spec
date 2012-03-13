@@ -66,3 +66,4 @@ make check
 
 %install
 %makeinstall_std
+%__rm -rf %{buildroot}/%{_libdir}/*.la

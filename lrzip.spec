@@ -4,7 +4,7 @@
 
 Name:		lrzip
 Summary:	Long Range ZIP or Lzma RZIP
-Version:	0.611
+Version:	0.612
 Release:	1
 License:	GPLv2+
 Group:		Archiving/Compression
@@ -49,6 +49,7 @@ Group:		Development/C
 This package contains dfevelopment files for lrzip library.
 
 %files -n %{develname}
+%{_includedir}/*.h
 %{_libdir}/liblrzip.so
 %{_libdir}/pkgconfig/lrzip.pc
 

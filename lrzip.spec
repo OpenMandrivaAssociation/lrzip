@@ -68,3 +68,22 @@ make check
 %install
 %makeinstall_std
 %__rm -rf %{buildroot}/%{_libdir}/*.la
+
+
+%changelog
+* Mon Jul 23 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.614-1
++ Revision: 810632
+- update to 0.614
+
+* Tue Jul 10 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.613-1
++ Revision: 808731
+- version 0.613
+
+* Mon Mar 19 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.612-1
++ Revision: 785575
+- new version 0.612
+
+* Tue Mar 13 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.611-1
++ Revision: 784613
+- imported package lrzip
+

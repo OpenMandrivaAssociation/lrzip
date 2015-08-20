@@ -1,2 +1,4 @@
+removed_sources:
+  lrzip-0.614.tar.bz2: 68aecb088a1e23616bc75a171f65e61f62d22c3b
 sources:
-  "lrzip-0.614.tar.bz2": 68aecb088a1e23616bc75a171f65e61f62d22c3b
+  lrzip-0.616.tar.bz2: 374a021ff087ee93b2d5894fd16aa3aef26dfa8f

@@ -4,15 +4,15 @@
 
 Summary:	Long Range ZIP or Lzma RZIP
 Name:		lrzip
-Version:	0.616
-Release:	3
+Version:	0.630
+Release:	1
 License:	GPLv2+
 Group:		Archiving/Compression
 Url:		http://ck.kolivas.org/apps/lrzip/
 Source0:	http://ck.kolivas.org/apps/lrzip/%{name}-%{version}.tar.bz2
 BuildRequires:	bzip2-devel
-BuildRequires:	liblzo2-devel
 BuildRequires:	pkgconfig(zlib)
+BuildRequires:	lzo-devel
 Requires:	tar
 
 %description
@@ -59,8 +59,7 @@ This package contains dfevelopment files for lrzip library.
 %setup -q
 
 %build
-autoreconf -fi
-%configure2_5x --disable-static
+%configure
 %make
 
 %install

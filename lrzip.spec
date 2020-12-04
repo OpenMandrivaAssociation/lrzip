@@ -5,7 +5,7 @@
 Summary:	Long Range ZIP or Lzma RZIP
 Name:		lrzip
 Version:	0.631
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Archiving/Compression
 Url:		http://ck.kolivas.org/apps/lrzip/
@@ -44,6 +44,7 @@ This package contains lrzip shared library.
 %package -n %{devname}
 Summary:	lrzip shared library
 Group:		Development/C
+Requires:	%{name}
 
 %description -n %{devname}
 This package contains dfevelopment files for lrzip library.
@@ -56,14 +57,14 @@ This package contains dfevelopment files for lrzip library.
 #----------------------------------------------------------------------------
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %check
 make check

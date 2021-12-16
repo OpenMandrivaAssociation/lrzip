@@ -4,8 +4,8 @@
 
 Summary:	Long Range ZIP or Lzma RZIP
 Name:		lrzip
-Version:	0.631
-Release:	2
+Version:	0.641
+Release:	1
 License:	GPLv2+
 Group:		Archiving/Compression
 Url:		http://ck.kolivas.org/apps/lrzip/

@@ -38,7 +38,7 @@ Group:		System/Libraries
 This package contains lrzip shared library.
 
 %files -n %{libname}
-%{_libdir}/liblrzip.so.%{major}*
+#{_libdir}/liblrzip.so.%{major}*
 
 #----------------------------------------------------------------------------
 

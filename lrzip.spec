@@ -8,7 +8,7 @@ Version:	0.651
 Release:	1
 License:	GPLv2+
 Group:		Archiving/Compression
-Url:		http://ck.kolivas.org/apps/lrzip/
+Url:		https://ck.kolivas.org/apps/lrzip/
 Source0:	http://ck.kolivas.org/apps/lrzip/%{name}-%{version}.tar.xz
 BuildRequires:	bzip2-devel
 BuildRequires:  pkgconfig(liblz4)

@@ -51,9 +51,9 @@ Requires:	%{name}
 This package contains dfevelopment files for lrzip library.
 
 %files -n %{devname}
-%{_includedir}/*.h
-%{_libdir}/liblrzip.so
-%{_libdir}/pkgconfig/lrzip.pc
+#{_includedir}/*.h
+#{_libdir}/liblrzip.so
+#{_libdir}/pkgconfig/lrzip.pc
 
 #----------------------------------------------------------------------------
 

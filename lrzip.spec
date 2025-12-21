@@ -10,6 +10,11 @@ License:	GPLv2+
 Group:		Archiving/Compression
 Url:		https://ck.kolivas.org/apps/lrzip/
 Source0:	http://ck.kolivas.org/apps/lrzip/%{name}-%{version}.tar.xz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	bzip2-devel
 BuildRequires:  pkgconfig(liblz4)
 BuildRequires:	pkgconfig(zlib)
